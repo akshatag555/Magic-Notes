@@ -1,9 +1,5 @@
 let cnt = 0;
 allStorage()
-clear.addEventListener("click", (e) => {
-  todo.innerHTML = ""
-}
-)
 submit.addEventListener("click", (e) => {
   e.preventDefault()
   let titlec = title.value;
